@@ -1,0 +1,44 @@
+#menu ul
+{
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+#menu a
+{
+  display: block;
+  width: 8em;
+  color: white;
+  background-color: #000099;
+  text-decoration: none;
+  text-align: center;
+}
+#menu a:hover
+{
+  background-color: #6666AA;
+}
+#menu li
+{
+  float: left;
+  margin-right: 0.3em;
+}
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+  z-index: -1;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+  opacity: 0.4;
+  z-index: -1;
+}
